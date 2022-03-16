@@ -12,7 +12,8 @@ export const Counter = () => {
             if (preValue === 0){
                 alert("Counter cannot be less than 0");
                 return preValue = 0;
-            }else{
+            }
+            else{
                 return preValue - 1;
             }
             
